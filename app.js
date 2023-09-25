@@ -52,3 +52,19 @@
 
 // });
 // console.log(ages);
+
+
+const People = [
+                {name:"akhtar", age:37 ,position:"boss"},
+                {name:"abid", age:41, position:"manager"},
+                {name:"kashif", age:45 ,position:"supervisor"},
+                
+                 ];
+    
+    
+    const value= People.map(function(person){
+    return person.name;
+    
+    
+    });
+    console.log(value);
